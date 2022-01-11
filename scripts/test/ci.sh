@@ -15,7 +15,6 @@ function prebuild {
 if [ "$TEST_SUITE" == "main" ]
 then
   yarn lint
-  ./scripts/test/smoke.sh
 
   yarn test --single-run
 
